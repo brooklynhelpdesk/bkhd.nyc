@@ -1967,7 +1967,7 @@
           return 'video';
         }
 
-        if (url.match(/vimeo\.com\/([0-9]*)/)) {
+        if (url.match(/^https?:\/\/vimeo\.com\/([0-9]+)$/)) {
           return 'video';
         }
 
