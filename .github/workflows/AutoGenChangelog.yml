@@ -13,15 +13,20 @@ on:
   issues:
     types: [closed, edited]
 
+permissions:
+  contents: write
+  issues: read
+  pull-requests: read
+
 jobs:
   generate_changelog:
     runs-on: ubuntu-latest
     name: Generate changelog for master branch
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Generate changelog
-        uses: charmixer/auto-changelog-action@v1
+        uses: charmixer/auto-changelog-action@b25e89c9410e03189f0d48b02b3a8caad6e78015 # v1
         with:
           token: ${{ secrets.YOUR_GITHUB_TOKEN}}
 

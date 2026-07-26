@@ -3,12 +3,14 @@ on:
     push:
         branches:
             - master
+permissions:
+    contents: write
 jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@master
+            - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
             - name: Bump version and push tag
-              uses: hennejg/github-tag-action@v4.2.4
+              uses: hennejg/github-tag-action@380490834de514714fd1e46c3d9724b8c9a1dc3b # v4.2.4
               with:
                   github_token: ${{ secrets.YOUR_GITHUB_TOKEN }}
