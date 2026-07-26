@@ -22,14 +22,6 @@
   var year = document.getElementById("year");
   if (year) year.textContent = new Date().getFullYear();
 
-  // UniFi card media: fall back to the SVG illustration when the photo is absent
-  document.querySelectorAll("img[data-fallback]").forEach(function (img) {
-    img.addEventListener("error", function handler() {
-      img.removeEventListener("error", handler);
-      img.src = img.getAttribute("data-fallback");
-    });
-  });
-
   // Hero: show the photo carousel only if hero-1 exists; otherwise keep the panel.
   var carousel = document.getElementById("heroCarousel");
   var dotsBox = document.getElementById("heroDots");
