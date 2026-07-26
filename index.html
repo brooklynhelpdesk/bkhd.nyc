@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0b0f14">
+
+  <title>Brooklyn Helpdesk &amp; BKHD Engineering — AI-Driven Home &amp; Business Automation</title>
+  <meta name="description" content="Brooklyn Helpdesk and its platform arm BKHD Engineering deliver AI-driven home and business automation: LLM agents, n8n workflows and MCP integrations, full-stack monitoring and network management, and UniFi Network, Protect &amp; Access for physical security.">
+  <meta name="keywords" content="Brooklyn Helpdesk, BKHD Engineering, home automation, business automation, LLM, n8n, MCP, UniFi, network management, monitoring, physical security, access control">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Brooklyn Helpdesk &amp; BKHD Engineering">
+  <meta property="og:description" content="AI-driven home &amp; business automation, monitoring, network management, and physical security &amp; access with UniFi.">
+  <meta property="og:url" content="https://bkhd.nyc/">
+
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Brooklyn Helpdesk home">
+        <img class="mark" src="assets/img/logo.svg" width="34" height="34" alt="BKHD">
+        <span class="wordmark">BKHD<small>Brooklyn Helpdesk</small></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#top" class="active">Home</a></li>
+        <li><a href="#automation">Automation</a></li>
+        <li><a href="#infrastructure">Infrastructure</a></li>
+        <li><a href="#security">Security &amp; Access</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a class="btn btn-ghost desktop" href="https://blog.bkhd.nyc" rel="noopener noreferrer">Blog</a>
+        <a class="btn btn-portal" href="https://portal.bkhd.nyc" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Client Portal
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======= Hero ======= -->
+  <main id="top">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="reveal">
+        <p class="eyebrow">Brooklyn Helpdesk &middot; BKHD Engineering</p>
+        <h1>AI-driven automation for your <span class="grad">home and business</span>.</h1>
+        <p>
+          Brooklyn Helpdesk is a Brooklyn-based IT and DevOps consultancy. Its platform arm,
+          BKHD Engineering, builds the automation underneath: LLM agents orchestrated by
+          n8n workflows and MCP integrations that monitor, remediate, and manage your
+          networks, systems, and spaces — so problems get fixed before they page anyone.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-portal" href="https://portal.bkhd.nyc" rel="noopener noreferrer">Open Client Portal</a>
+          <a class="btn btn-ghost" href="#automation">See what we automate</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><b>~500</b><span>Managed endpoints</span></div>
+          <div class="stat"><b>99.99%</b><span>Service availability SLA</span></div>
+          <div class="stat"><b>~70%</b><span>Alerts auto-remediated</span></div>
+        </div>
+      </div>
+
+      <aside class="hero-panel reveal" aria-label="Example automation workflow">
+        <h4>Autonomous remediation</h4>
+        <p class="sub">A representative n8n &times; LLM workflow</p>
+        <div class="flow">
+          <div class="flow-node">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/></svg>
+            <div><b>Alert fires</b><small>Grafana / Prometheus / Wazuh SIEM</small></div>
+          </div>
+          <div class="flow-arrow">&darr;</div>
+          <div class="flow-node">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 12h8M12 8v8"/></svg>
+            <div><b>n8n routes the event</b><small>Enriches context, calls the agent</small></div>
+          </div>
+          <div class="flow-arrow">&darr;</div>
+          <div class="flow-node">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.5 5 5.5.8-4 3.9.9 5.5L12 20l-4.9 2.1.9-5.5-4-3.9 5.5-.8z"/></svg>
+            <div><b>LLM agent decides</b><small>MCP tools: DNS, git/CI, metrics — least privilege</small></div>
+          </div>
+          <div class="flow-arrow">&darr;</div>
+          <div class="flow-node">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            <div><b>Fix applied &amp; verified</b><small>Or escalated with full context</small></div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="hero-carousel reveal" id="heroCarousel" aria-label="Featured work" role="group" hidden>
+        <img src="assets/img/hero/slide-1.jpg" alt="" loading="eager">
+        <img src="assets/img/hero/slide-2.jpg" alt="" loading="lazy">
+        <img src="assets/img/hero/slide-3.jpg" alt="" loading="lazy">
+        <img src="assets/img/hero/slide-4.jpg" alt="" loading="lazy">
+        <img src="assets/img/hero/slide-5.jpg" alt="" loading="lazy">
+        <img src="assets/img/hero/slide-6.jpg" alt="" loading="lazy" class="contain">
+        <div class="hero-carousel-dots" id="heroDots" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= About ======= -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow reveal">Who we are</p>
+      <h2 class="reveal">Two names, one team</h2>
+      <p class="lead reveal">The consultancy that answers your call and the engineering practice that automates the work behind it.</p>
+
+      <div class="grid grid-2 mt-40">
+        <div class="card about-card reveal">
+          <span class="role">Brooklyn Helpdesk, Inc. &middot; Founded 2018</span>
+          <h3>IT / DevOps consultancy</h3>
+          <p>
+            IT and DevOps engineering across roughly 500 managed client endpoints — identity and
+            single sign-on, CI/CD automation, LAN/WiFi design and maintenance, and device lifecycle
+            management via MDM. We standardize client identity on Okta, Google Workspace, and Active
+            Directory, cutting onboarding and provisioning time by about 30%.
+          </p>
+          <ul>
+            <li>IT outsourcing &amp; help desk</li>
+            <li>Network implementations</li>
+            <li>Physical site security &amp; access control</li>
+            <li>Server &amp; client management</li>
+            <li>User &amp; resource lifecycle management</li>
+            <li>Home &amp; office automation</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">Managed IT</span>
+            <span class="tag">Help desk</span>
+            <span class="tag">IAM / SSO</span>
+            <span class="tag">MDM</span>
+            <span class="tag">CI/CD</span>
+            <span class="tag">LAN / WiFi</span>
+            <span class="tag">DNSSEC</span>
+            <span class="tag">Microsoft 365 / Workspace</span>
+            <span class="tag">Firewall / VPN</span>
+            <span class="tag">Backup &amp; DR</span>
+            <span class="tag">Patch management</span>
+            <span class="tag">Endpoint security</span>
+            <span class="tag">Cloud (AWS / Azure / GCP)</span>
+            <span class="tag">VoIP</span>
+            <span class="tag">Vendor management</span>
+          </div>
+        </div>
+
+        <div class="card about-card reveal">
+          <span class="role">BKHD Engineering &middot; Platform arm</span>
+          <h3>The automation practice</h3>
+          <p>
+            We architect the AI automation platform that runs it all: n8n workflows orchestrating
+            LLM agents that triage alerts, reconcile DNS, and drive CI/CD across dozens of client
+            environments — auto-remediating around 70% of alerts. On a high-availability container
+            platform hosting 40+ client-facing services at a 99.99% SLA.
+          </p>
+          <ul>
+            <li>n8n automation with LLM agents &amp; MCP servers</li>
+            <li>Observability &amp; monitoring</li>
+            <li>High availability</li>
+            <li>Database management</li>
+            <li>Cloud configuration &amp; management</li>
+            <li>Self-hosted cloud management</li>
+            <li>Terraform / infrastructure as code</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">n8n</span>
+            <span class="tag">LLM agents</span>
+            <span class="tag">150+ MCP servers</span>
+            <span class="tag">Kubernetes / Podman</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Terraform</span>
+            <span class="tag">Ansible</span>
+            <span class="tag">GitOps / CI/CD</span>
+            <span class="tag">Grafana / Prometheus</span>
+            <span class="tag">Wazuh SIEM</span>
+            <span class="tag">Database management</span>
+            <span class="tag">Traefik</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Automation ======= -->
+  <section id="automation" class="section">
+    <div class="container">
+      <p class="eyebrow reveal">LLMs, n8n &amp; workflows</p>
+      <h2 class="reveal">Automation that acts, not just alerts</h2>
+      <p class="lead reveal">
+        We connect your tools to LLM agents through Model Context Protocol servers and wire the
+        logic together in n8n — so routine operations run themselves, at home and at the office.
+      </p>
+
+      <div class="grid grid-3 mt-40">
+        <div class="card reveal">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 1 3 3v1a3 3 0 0 1 3 3 3 3 0 0 1 0 6 3 3 0 0 1-3 3v1a3 3 0 0 1-6 0v-1a3 3 0 0 1-3-3 3 3 0 0 1 0-6 3 3 0 0 1 3-3V5a3 3 0 0 1 3-3z"/></svg></div>
+          <h3>LLM agents &amp; MCP</h3>
+          <p>Custom MCP server integrations expose your git/CI, metrics, DNS, and SIEM to AI agents under per-scope, least-privilege authorization. Self-hosted models (Ollama) keep sensitive data in-house.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><path d="M10 6.5h4M17.5 10v4M6.5 10v4a3.5 3.5 0 0 0 3.5 3.5h4"/></svg></div>
+          <h3>n8n workflow automation</h3>
+          <p>Event-driven workflows stitch your systems together — triage alerts, reconcile records, run CI/CD, and hand decisions to agents. Auditable, versioned, and running on your infrastructure.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-7 4 14 2-7h6"/></svg></div>
+          <h3>Home &amp; office automation</h3>
+          <p>Presence-aware scenes and device control with Home Assistant, Homebridge/HomeKit, Matter, Thread, Zigbee and Z-Wave — lighting, climate, and access that respond to how the space is actually used.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Infrastructure & Monitoring ======= -->
+  <section id="infrastructure" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow reveal">Monitoring &amp; network management</p>
+      <h2 class="reveal">Full-stack visibility, managed networks</h2>
+      <p class="lead reveal">
+        You can't automate what you can't see. We instrument the whole stack and keep the
+        network healthy — with the same telemetry feeding the agents that remediate it.
+      </p>
+
+      <div class="grid grid-3 mt-40">
+        <div class="card reveal">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l3-4 3 3 4-7"/></svg></div>
+          <h3>Observability</h3>
+          <p>Grafana, Prometheus, and VictoriaLogs dashboards with actionable alerting. Syslog and network-log analytics ingesting at scale, so anomalies surface early.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="14" width="20" height="7" rx="2"/><circle cx="6.5" cy="17.5" r="1"/><path d="M6 3l6 6 6-6M12 9v5"/></svg></div>
+          <h3>Network management</h3>
+          <p>UniFi-based LAN and WiFi design, VLAN segmentation, split-horizon and DNSSEC-signed DNS, reverse proxy with TLS, and high-availability failover. Managed and monitored end to end.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h3>Security monitoring (SIEM)</h3>
+          <p>Wazuh SIEM correlates events across endpoints and infrastructure. Detections route straight into the automation platform for enrichment, containment, or escalation with context.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Physical Security & Access (UniFi) ======= -->
+  <section id="security" class="section">
+    <div class="container">
+      <p class="eyebrow reveal">Physical security &amp; access &middot; UniFi</p>
+      <h2 class="reveal">One platform for the network and the door</h2>
+      <p class="lead reveal">
+        We deploy and manage the Ubiquiti UniFi stack so your connectivity, cameras, and access
+        control live under a single pane of glass — and feed the same monitoring and automation.
+      </p>
+
+      <div class="grid grid-3 mt-40">
+        <div class="card has-media reveal">
+          <img class="card-media" src="assets/img/unifi/network.svg" alt="UniFi Network gateway, switch and access point" loading="lazy">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13a10 10 0 0 1 14 0M8.5 16.5a5 5 0 0 1 7 0"/><circle cx="12" cy="20" r="1"/></svg></div>
+          <h3>UniFi Network</h3>
+          <p>Gateways, switches, and access points designed for reliability — VLAN segmentation, guest isolation, WiFi optimization, and deep client visibility across every site.</p>
+        </div>
+        <div class="card has-media reveal">
+          <img class="card-media" src="assets/img/unifi/protect.svg" alt="UniFi Protect security camera" loading="lazy">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7l6 4V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2v-4l-6 4z"/></svg></div>
+          <h3>UniFi Protect</h3>
+          <p>Camera systems with on-site recording, smart detections, and privacy-respecting retention. Alerts integrate with monitoring so events are correlated, not just recorded.</p>
+        </div>
+        <div class="card has-media reveal">
+          <img class="card-media" src="assets/img/unifi/access.svg" alt="UniFi Access door reader and lock" loading="lazy">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><circle cx="12" cy="15.5" r="1.4"/></svg></div>
+          <h3>UniFi Access</h3>
+          <p>Door access control with credentials, schedules, and audit logs — tied into your identity provider and managed alongside the network from the Client Portal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Client Portal band ======= -->
+  <section class="section" aria-labelledby="portal-h">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div>
+          <h2 id="portal-h">Client Portal</h2>
+          <p>Manage your networks, cameras, and door access in one place. The portal opens your
+             hosted UniFi controller at <strong>portal.bkhd.nyc</strong>.</p>
+        </div>
+        <div class="actions">
+          <a class="btn btn-portal" href="https://portal.bkhd.nyc" rel="noopener noreferrer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            Log in to the portal
+          </a>
+          <a class="btn btn-ghost" href="https://blog.bkhd.nyc" rel="noopener noreferrer">Read the blog</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Services ======= -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow reveal">What we deliver</p>
+      <h2 class="reveal">Services</h2>
+      <div class="grid grid-3 mt-40">
+        <div class="card reveal"><h3>Automation engineering</h3><p>LLM agents, MCP integrations, and n8n workflows tailored to your operations.</p></div>
+        <div class="card reveal"><h3>Managed IT &amp; DevOps</h3><p>Endpoint management, IAM/SSO, MDM, and CI/CD across your fleet.</p></div>
+        <div class="card reveal"><h3>Network design &amp; management</h3><p>UniFi LAN/WiFi, VLANs, DNS, TLS, and high-availability infrastructure.</p></div>
+        <div class="card reveal"><h3>Monitoring &amp; SIEM</h3><p>Grafana/Prometheus observability and Wazuh security monitoring, wired to auto-remediation.</p></div>
+        <div class="card reveal"><h3>Physical security &amp; access</h3><p>UniFi Protect cameras and UniFi Access door control, integrated with identity.</p></div>
+        <div class="card reveal"><h3>Home &amp; office automation</h3><p>Home Assistant / HomeKit scenes, presence automation, Matter/Thread/Zigbee.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Contact ======= -->
+  <section id="contact" class="section">
+    <div class="container">
+      <p class="eyebrow reveal">Get in touch</p>
+      <h2 class="reveal">Let's automate something</h2>
+      <p class="lead reveal">Tell us what's manual, fragile, or unmonitored — we'll show you what it looks like automated.</p>
+
+      <div class="contact-wrap mt-40">
+        <div class="card contact-card reveal">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
+          <h3>Email</h3>
+          <p>Reach us directly and we'll get back within a business day.</p>
+          <p style="margin-top:12px"><a class="big" href="mailto:hello@bkhd.nyc">hello@bkhd.nyc</a></p>
+        </div>
+        <div class="card contact-card reveal">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 14l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 2 6a2 2 0 0 1 2-2z"/></svg></div>
+          <h3>Phone</h3>
+          <p>Call or text us at 929.450.2543.</p>
+          <p style="margin-top:12px"><a class="big" href="tel:+19294502543">929.450.BKHD</a></p>
+        </div>
+        <div class="card contact-card reveal">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg></div>
+          <h3>Founder &amp; background</h3>
+          <p>The full engineering résumé, project history, and skills live on the founder's site.</p>
+          <p style="margin-top:12px"><a class="big" href="https://cst.nyc" rel="noopener noreferrer">cst.nyc &rarr;</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand" style="margin-bottom:8px"><img class="mark" src="assets/img/logo.svg" width="30" height="30" alt="BKHD"><span>BKHD</span></div>
+        <div class="fine">Brooklyn Helpdesk, Inc. &middot; BKHD Engineering &middot; Brooklyn, NY</div>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="https://portal.bkhd.nyc" rel="noopener noreferrer">Client Portal</a>
+        <a href="https://blog.bkhd.nyc" rel="noopener noreferrer">Blog</a>
+        <a href="https://cst.nyc" rel="noopener noreferrer">cst.nyc</a>
+        <a href="mailto:hello@bkhd.nyc">Contact</a>
+      </nav>
+    </div>
+    <div class="container fine" style="margin-top:18px">&copy; <span id="year">2026</span> Brooklyn Helpdesk, Inc. All rights reserved.</div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>

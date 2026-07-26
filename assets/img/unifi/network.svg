@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" width="400" height="220" role="img" aria-label="UniFi Network access point broadcasting to connected devices">
+  <defs><linearGradient id="ng" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#182231"/><stop offset="1" stop-color="#111823"/></linearGradient></defs>
+  <rect width="400" height="220" fill="url(#ng)"/>
+  <g fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" opacity=".9">
+    <path d="M200 70a70 70 0 0 1 70 70" opacity=".35"/>
+    <path d="M200 92a48 48 0 0 1 48 48" opacity=".55"/>
+    <path d="M200 114a26 26 0 0 1 26 26" opacity=".8"/>
+  </g>
+  <circle cx="200" cy="140" r="30" fill="#0b0f14" stroke="#22d3ee" stroke-width="3"/>
+  <circle cx="200" cy="140" r="8" fill="#22d3ee"/>
+  <g fill="#7c9cff">
+    <rect x="70" y="150" width="34" height="24" rx="4"/>
+    <rect x="296" y="150" width="34" height="24" rx="4"/>
+    <circle cx="120" cy="70" r="10"/>
+    <circle cx="290" cy="66" r="10"/>
+  </g>
+  <g stroke="#2f4459" stroke-width="2" stroke-dasharray="4 5">
+    <path d="M120 80v50M290 76v54M104 162h60M236 162h60"/>
+  </g>
+</svg>

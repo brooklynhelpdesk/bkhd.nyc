@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" width="400" height="220" role="img" aria-label="UniFi Access door reader and lock">
+  <defs><linearGradient id="ag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#182231"/><stop offset="1" stop-color="#111823"/></linearGradient></defs>
+  <rect width="400" height="220" fill="url(#ag)"/>
+  <rect x="120" y="34" width="120" height="168" rx="6" fill="#0b0f14" stroke="#2f4459" stroke-width="3"/>
+  <rect x="120" y="34" width="120" height="168" rx="6" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity=".4"/>
+  <circle cx="224" cy="120" r="5" fill="#7c9cff"/>
+  <g>
+    <rect x="270" y="86" width="60" height="86" rx="10" fill="#0b0f14" stroke="#22d3ee" stroke-width="3"/>
+    <rect x="284" y="100" width="32" height="20" rx="4" fill="#22d3ee" opacity=".85"/>
+    <g fill="#7c9cff"><circle cx="290" cy="138" r="4"/><circle cx="300" cy="138" r="4"/><circle cx="310" cy="138" r="4"/><circle cx="290" cy="152" r="4"/><circle cx="300" cy="152" r="4"/><circle cx="310" cy="152" r="4"/></g>
+  </g>
+  <g fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round">
+    <rect x="150" y="118" width="34" height="26" rx="4" fill="#0b0f14"/>
+    <path d="M156 118v-7a11 11 0 0 1 22 0v7"/>
+  </g>
+</svg>

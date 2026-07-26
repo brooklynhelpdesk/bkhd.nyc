@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" width="400" height="220" role="img" aria-label="UniFi Protect security camera">
+  <defs><linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#182231"/><stop offset="1" stop-color="#111823"/></linearGradient></defs>
+  <rect width="400" height="220" fill="url(#pg)"/>
+  <g fill="none" stroke="#38bdf8" stroke-width="2.5" opacity=".5">
+    <path d="M250 96l70-34M250 124l70 34"/>
+  </g>
+  <g transform="rotate(-18 175 110)">
+    <rect x="96" y="86" width="150" height="52" rx="26" fill="#0b0f14" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="216" cy="112" r="20" fill="#0b0f14" stroke="#7c9cff" stroke-width="3"/>
+    <circle cx="216" cy="112" r="9" fill="#22d3ee"/>
+    <rect x="104" y="100" width="10" height="24" rx="3" fill="#7c9cff"/>
+  </g>
+  <rect x="150" y="150" width="14" height="40" rx="4" fill="#2f4459"/>
+  <rect x="120" y="188" width="74" height="10" rx="5" fill="#2f4459"/>
+  <circle cx="330" cy="40" r="6" fill="#34d399"/>
+</svg>
