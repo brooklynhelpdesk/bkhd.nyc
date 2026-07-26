@@ -21,9 +21,10 @@
     <circle cx="6" cy="24" r="1.6"/><circle cx="42" cy="24" r="1.6"/>
     <circle cx="24" cy="6" r="1.6"/><circle cx="24" cy="42" r="1.6"/>
   </g>
-  <!-- central chip -->
-  <rect x="14" y="14" width="20" height="20" rx="4" fill="#0b0f14"/>
-  <text x="24" y="30" text-anchor="middle"
-        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
-        font-size="11" font-weight="800" letter-spacing="-.5" fill="url(#bkhd)">BK</text>
+  <!-- central chip: BK / HD stacked -->
+  <rect x="13" y="13" width="22" height="22" rx="4" fill="#0b0f14"/>
+  <g text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="800" letter-spacing="-.5" fill="url(#bkhd)">
+    <text x="24" y="23.2">BK</text>
+    <text x="24" y="32.4">HD</text>
+  </g>
 </svg>
