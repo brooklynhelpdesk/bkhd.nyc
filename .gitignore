@@ -2,3 +2,8 @@
 **/.DS_Store
 .serena/
 .editorconfig
+
+# Local tooling and OS files
+.gitignore
+.gitguardian*
+.claude
